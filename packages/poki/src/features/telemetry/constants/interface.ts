@@ -1,0 +1,16 @@
+export enum InterfaceEventNameLocal {
+  PortfolioMenuOpened = 'Portfolio Menu Opened',
+  PokiXOrderDetailsSheetOpened = 'PokiX Order Details Sheet Opened',
+  PokiXOrderCancelInitiated = 'PokiX Order Cancel Initiated',
+  PokiXSignatureRequested = 'PokiX Signature Requested',
+  PokiXSignatureDeadlineExpired = 'PokiX Signature Deadline Expired',
+  PokiXOrderPostError = 'PokiX Order Post Error',
+  PokiXOrderSubmitted = 'PokiX Order Submitted',
+  LimitPresetRateSelected = 'Limit Preset Rate Selected',
+  LimitPriceReversed = 'Limit Price Reversed',
+  LimitExpirySelected = 'Limit Expiry Selected',
+  SwapTabClicked = 'Swap Tab Clicked',
+  LocalCurrencySelected = 'Local Currency Selected',
+  NoQuoteReceivedFromQuickrouteAPI = 'No quote received from quickroute API',
+  NoQuoteReceivedFromRoutingAPI = 'No quote received from routing API',
+}

@@ -1,0 +1,29 @@
+{
+  "extends": "../../config/tsconfig/app.json",
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.json"
+  ],
+  "references": [
+    {
+      "path": "../ui"
+    },
+    {
+      "path": "../poki"
+    },
+    {
+      "path": "../utilities"
+    },
+    {
+      "path": "../analytics-events"
+    }
+  ],
+  "compilerOptions": {
+    "types": [
+      "chrome",
+      "jest"
+    ]
+  }
+}

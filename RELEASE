@@ -1,0 +1,23 @@
+IPFS hash of the deployment:
+- CIDv0: `QmQ2hU8vjNncmKCmEU6cU1DNpokWPfMtBRLj9fQpJRzCu2`
+- CIDv1: `bafybeiazdyfabltg5ykqliad3cflnjagpxmrkdv2bwagwtbjasovu2uftu`
+
+The latest release is always mirrored at [app.pokiwallet.com](https://app.pokiwallet.com).
+
+You can also access the Poki Interface from an IPFS gateway.
+**BEWARE**: The Poki interface uses [`localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to remember your settings, such as which tokens you have imported.
+**You should always use an IPFS gateway that enforces origin separation**, or our hosted deployment of the latest release at [app.pokiwallet.com](https://app.pokiwallet.com).
+Your Poki settings are never remembered across different URLs.
+
+IPFS gateways:
+- https://bafybeiazdyfabltg5ykqliad3cflnjagpxmrkdv2bwagwtbjasovu2uftu.ipfs.dweb.link/
+- [ipfs://QmQ2hU8vjNncmKCmEU6cU1DNpokWPfMtBRLj9fQpJRzCu2/](ipfs://QmQ2hU8vjNncmKCmEU6cU1DNpokWPfMtBRLj9fQpJRzCu2/)
+
+### 5.74.1 (2025-02-27)
+
+
+### Bug Fixes
+
+* **web:** wait for statsig init to check ff (#16802) af389dd
+
+
